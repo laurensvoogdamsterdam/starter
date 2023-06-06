@@ -23,13 +23,13 @@ It uses [Turborepo](https://turborepo.org/) and contains:
 .vscode
   └─ Recommended extensions and settings for VSCode users
 apps
-  ├─ expo
+  ├─ mobile
   |   ├─ Expo SDK 48
   |   ├─ React Native using React 18
   |   ├─ Navigation using Expo Router
   |   ├─ Tailwind using Nativewind
   |   └─ Typesafe API calls using tRPC
-  └─ next.js
+  └─ web
       ├─ Next.js 13
       ├─ React 18
       ├─ Tailwind CSS
@@ -43,7 +43,7 @@ packages
      └─ typesafe db-calls using Prisma
 ```
 
-> In this template, we use `@acme` as a placeholder for package names. As a user, you might want to replace it with your own organization or project name. You can use find-and-replace to change all the instances of `@acme/` to something like `@my-company/` / `@project-name/`.
+> In this template, we use `@shared` as a placeholder for package names. As a user, you might want to replace it with your own organization or project name. You can use find-and-replace to change all the instances of `@shared/` to something like `@my-company/` / `@project-name/`.
 
 ## FAQ
 
