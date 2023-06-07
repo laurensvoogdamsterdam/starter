@@ -1,6 +1,7 @@
 /** @type {import("eslint").Linter.Config} */
 const config = {
   root: true,
+  // trunk-ignore(git-diff-check/error)
   extends: ["@shared/eslint-config"], // uses the config in `packages/config/eslint`
   parser: "@typescript-eslint/parser",
   parserOptions: {
@@ -14,7 +15,7 @@ const config = {
   },
   settings: {
     next: {
-      rootDir: ["apps/nextjs"],
+      rootDir: ["apps/web"],
     },
   },
 };
